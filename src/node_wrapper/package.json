@@ -1,0 +1,36 @@
+{
+  "name": "@iron5pider/mcp-config-helper",
+  "version": "0.1.0",
+  "description": "Node.js wrapper for MCP Config Helper - Transform MCP configurations into Claude CLI commands",
+  "main": "index.js",
+  "bin": {
+    "mcp-config-helper": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "cli",
+    "configuration",
+    "model-context-protocol"
+  ],
+  "author": "Armaan Sood",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Iron5pider/get-mcp-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Iron5pider/get-mcp-cli/issues"
+  },
+  "homepage": "https://github.com/Iron5pider/get-mcp-cli#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "../mcp_config_helper/**/*.py"
+  ]
+}

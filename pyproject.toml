@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-config-helper"
+version = "0.1.0"
+description = "MCP server for fetching and transforming MCP configurations into Claude CLI commands"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Armaan Sood", email = "armaansood.business@gmail.com" }]
+requires-python = ">=3.10"
+keywords = ["mcp", "claude", "cli", "configuration"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "fastmcp>=0.1.0",
+    "httpx>=0.25.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Iron5pider/get-mcp-cli"
+Repository = "https://github.com/Iron5pider/get-mcp-cli"
+Issues = "https://github.com/Iron5pider/get-mcp-cli/issues"
+
+[project.scripts]
+mcp-config-helper = "mcp_config_helper.server:main"
