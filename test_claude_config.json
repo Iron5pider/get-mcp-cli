@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "config-helper-test": {
+      "command": "uv",
+      "args": ["run", "--from", "/Users/ironspidermini/PKMS/projects/active/get-mcp-cli", "mcp-config-helper"]
+    }
+  }
+}

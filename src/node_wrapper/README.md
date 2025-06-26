@@ -13,10 +13,14 @@ npx @iron5pider/mcp-config-helper
 ## Requirements
 
 - Node.js 14+
-- Python 3.10+
+- uv (Python package manager) - [Installation guide](https://docs.astral.sh/uv/)
+
+## How it works
+
+This Node.js wrapper uses `uvx` to automatically download and run the Python mcp-config-helper package. No separate Python installation is needed as uvx handles everything.
 
 ## Usage
 
-The wrapper automatically spawns the Python MCP server. Make sure Python is installed on your system.
+Simply run the command and uvx will handle the rest:
 
 For more information, see the main [README](https://github.com/Iron5pider/get-mcp-cli).

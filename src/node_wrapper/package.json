@@ -31,6 +31,6 @@
   },
   "files": [
     "index.js",
-    "../mcp_config_helper/**/*.py"
+    "README.md"
   ]
 }
